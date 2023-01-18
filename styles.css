@@ -239,3 +239,56 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Drinks */
+
+.foodmenu {
+  grid-area: 1/5/27/23;
+  color: white;
+}
+
+.items {
+  background-image: url('./images/drinks-tea.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 1300px;
+  padding: 10vmax 0;
+}
+
+.menus {
+  text-align: center;
+  color: rgb(235,133,35);
+  text-shadow: 1px 1px 2px black;
+  font-size: 4em;
+}
+
+.menu-item {
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  margin-top: 0;
+  -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    width: 100%;
+}
+
+.menu-item-title {
+  font-weight: 700;
+}
+
+.menu-item-price-top {
+  float: right;
+  padding-left: 20px;
+}
+
+.mega-menu {
+  display: inline-block;
+  gap: 50%;
+}
+
+.super-menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
