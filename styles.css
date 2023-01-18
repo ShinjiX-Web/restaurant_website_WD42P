@@ -55,7 +55,7 @@
 
   .bg-img {
     /* The image used */
-    background-image: url("images/food.jpeg");
+    background-image: url("./images/food.jpeg");
     min-height: 800px;
     filter: brightness (10%);
 
