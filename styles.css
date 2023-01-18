@@ -134,7 +134,7 @@
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
-    top: 20px;
+    top: 0;
     right: 10px;
     width: 100%;
   }
