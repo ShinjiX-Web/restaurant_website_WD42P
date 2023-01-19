@@ -83,6 +83,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+
   }
   
   /* Navbar links */
@@ -137,6 +138,9 @@
     top: 0;
     right: 10px;
     width: 100%;
+    backdrop-filter: blur(1.375em);
+    background-color: rgba(153, 153, 153, 0.1);
+    z-index: 9999;
   }
 
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets 
