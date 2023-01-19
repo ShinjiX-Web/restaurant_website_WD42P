@@ -210,11 +210,14 @@
   color: #f2f2f2;
   font-size: 35px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
   text-shadow: 1px 1px 2px black;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* The dots/bullets/indicators */
