@@ -292,3 +292,8 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.music {
+  text-align: center;
+  margin: 50px auto;
+}
