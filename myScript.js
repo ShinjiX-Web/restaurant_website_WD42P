@@ -39,3 +39,8 @@ function play() {
   var audio = document.getElementById("audio");
   audio.play();
 }
+
+function plays() {
+  var audio1 = document.getElementById("audio1");
+  audio.play();
+}

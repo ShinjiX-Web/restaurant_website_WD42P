@@ -307,11 +307,6 @@
   justify-content: space-evenly;
 }
 
-.music {
-  text-align: center;
-  margin: 50px auto;
-}
-
 .menu-p {
   text-align: center;
   font-size: 25px;;
@@ -322,4 +317,50 @@ a.click-me:hover,
 h1.one:hover {
   color: #eb8523;
   text-decoration: none;
+}
+
+#order-now {
+  min-width: 199px;
+  height: 66px;
+  padding: 6px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  font-size: 1.2em;
+  outline: none;
+  border-radius: 35px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: none;
+  color: #100d0c;
+  text-transform: uppercase;
+}
+
+#order-now:hover {
+  color: #fff;
+}
+
+#order-now:hover:after {
+  width: 100%;
+}
+
+#order-now:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #100d0c;
+}
+
+.pindutan {
+  display: flex;
+  justify-content: center;
+  margin: 3em auto;
 }
