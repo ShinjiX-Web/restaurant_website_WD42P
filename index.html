@@ -23,7 +23,7 @@
             <a href="#story" type="button" value="PLAY" onclick="play()"class="click-me">Our Story</a>
             <a href="#gallery" type="button" value="PLAY" onclick="play()"class="click-me">Gallery</a>
             <a href="#menu" type="button" value="PLAY" onclick="play()"class="click-me">Menu</a>
-            <a href="#about" type="button" value="PLAY" onclick="play()"class="click-me">Contact Us</a>
+            <a href="#contact" type="button" value="PLAY" onclick="play()"class="click-me">Contact Us</a>
             <audio id="audio" src="./click_effect.mp3"></audio>
           </div>
           <div class="content-wrapper">
@@ -270,6 +270,43 @@
         </div>
       </div>
     </section>
+
+    <!-- footer -->
+
+    <footer class="container-one" id="contact">
+        <div class="contact-one">
+          <img src="/images/contact-us-image.jpeg" alt="Contact Us" class="contact-image">
+          <div class="footer-form">
+            <h4 class="footer-p">Contact Us</h4>
+            <div class="container-form">
+              <form action="action_page.php">
+            
+                <label for="fname" class="form-labels">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name">
+            
+                <label for="lname" class="form-labels">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+            
+                <label for="country" class="form-labels">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Select</option>
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject" class="form-labels">Message</label>
+                <textarea id="subject" name="subject" placeholder="Message here..." style="height:200px"></textarea>
+            
+                <input type="button" value="Submit" value="plays" onmouseover="plays()" id="order-now">
+                <audio id="audio1" src="./quick.mp3"></audio>
+            
+              </form>
+            </div>
+          </div>
+        </div>
+    </footer>
+
   <script src="myScript.js"></script>
 </body>
 </html>
