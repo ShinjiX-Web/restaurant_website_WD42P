@@ -440,4 +440,5 @@ input[type=submit]:hover {
 
 .form-labels {
   color: #100d0c;
+  float: left;
 }
