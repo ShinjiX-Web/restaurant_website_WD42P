@@ -432,12 +432,13 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container-form {
   border-radius: 15px;
-  background-color: #f2f2f2;
   padding: 20px;
   position: absolute;
   top: 50%;
+  background: #0000005c;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .contact-image {
@@ -445,7 +446,6 @@ input[type=submit]:hover {
 }
 
 .form-labels {
-  color: #100d0c;
   float: left;
 }
 
