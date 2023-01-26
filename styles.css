@@ -16,7 +16,7 @@
   html, body {
     height: 100%;
     scroll-behavior: smooth;
-    scroll-padding: 5rem;
+    scroll-padding: 15rem;
   }
   /*
     Typographic tweaks!
@@ -126,6 +126,7 @@
       text-decoration: 4px underline;
   }
 
+
   .content:hover {
     text-decoration: none;
     cursor: pointer;
@@ -162,10 +163,15 @@
     padding: 100px 50px;
     width: auto;
     gap: 100px;
+
   }
 
   .head-story {
     width: 60%;
+    border-radius: 30px;
+    padding: 60px 50px;
+    background: #ecebeb;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   }
 
   .myStory {
